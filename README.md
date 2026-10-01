@@ -145,13 +145,13 @@ The paths below assume the QGIS `default` profile.
 Save the complete plugin folder in:
 
 ``` text
-C:\Users\<username>\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins\
+C:\Users\<username>\AppData\Roaming\QGIS\QGIS4\profiles\default\python\plugins\
 ```
 
 The resulting path should resemble:
 
 ``` text
-C:\Users\<username>\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins\redistricting_editor\
+C:\Users\<username>\AppData\Roaming\QGIS\QGIS4\profiles\default\python\plugins\redistricting_editor\
 ```
 
 Quick access:
