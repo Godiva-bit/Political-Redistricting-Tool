@@ -144,7 +144,7 @@ profile.
 **Plugin folder:**
 
 ``` text
-C:\Users\<username>\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins\redistricting_editor\
+C:\Users\<username>\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins\
 ```
 
 Press **Windows + R** and enter:
@@ -174,7 +174,7 @@ Create `scripts` inside `processing` if it does not exist.
 **Plugin folder:**
 
 ``` text
-~/Library/Application Support/QGIS/QGIS3/profiles/default/python/plugins/redistricting_editor/
+~/Library/Application Support/QGIS/QGIS3/profiles/default/python/plugins/
 ```
 
 In Finder press **Command + Shift + G**, enter the parent
