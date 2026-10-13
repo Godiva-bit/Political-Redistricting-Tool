@@ -215,15 +215,26 @@ The script creates the initialized output with `original_dist` and
 field does not replace Census Block population for interactive district
 calculations.**
 
-### Important: Keep the Redistricting Editor Open During an Editing Session
+### Important: Keep the Redistricting Plugin Open During an Editing Session
 
-Once the Redistricting Editor has been launched and the required layers have been loaded, users should **keep the plugin window open throughout the redistricting session**.
+Once the Redistricting Data Initialization script has been executed and the redistricting plugin has been launched, users should **keep the plugin open throughout the redistricting session**.
 
-The editor maintains working district assignments and editing history during the active session. Closing the plugin window ends that session.
+The plugin maintains the current district assignments and editing history during the active session.
 
-If the plugin is closed and reopened, it starts a new session. Users must select the required layers and click **Load Layer** again. Previous unsaved reassignments and Undo history should not be assumed to remain available.
+If the plugin is closed and reopened, it starts a new session. Users must select the Existing Districts, COI Analysis, and Census Blocks layers again and click **Load Layer**. Previous unsaved reassignments and Undo history should not be assumed to remain available.
 
-Users can continue selecting Census Blocks, reassigning districts, reviewing statistics, using Undo, updating the map, and saving plans without closing the editor.
+Users can continue selecting Census Blocks, reassigning districts, reviewing statistics, using Undo, updating the map, and saving plans without closing the plugin.
+
+**Recommended Workflow:**
+
+1. Run **Redistricting Data Initialization** to initialize the geographic data and launch the redistricting plugin.
+2. Select the **Existing Districts**, **COI Analysis**, and **Census Blocks** layers.
+3. Click **Load Layer**.
+4. Keep the plugin open while performing redistricting operations.
+5. Use **Save Redistricting Plan** to export the current district configuration.
+6. Continue editing if necessary, or close the plugin when the session is complete.
+
+**Note:** Saving a redistricting plan does not prevent further editing. However, previous Undo history may no longer be available after saving. Closing and reopening the plugin starts a new editing session rather than restoring the previous one.
 
 **Recommended workflow:**
 
