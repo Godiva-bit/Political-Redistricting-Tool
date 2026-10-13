@@ -155,7 +155,7 @@ Press **Windows + R** and enter:
 
 Copy the **complete** `redistricting_editor` folder there.
 
-**Processing script (`redistricting_tool.py`):**
+**Processing script (`redistricting_data_initialization.py`):**
 
 ``` text
 C:\Users\<username>\AppData\Roaming\QGIS\QGIS3\profiles\default\processing\scripts\
