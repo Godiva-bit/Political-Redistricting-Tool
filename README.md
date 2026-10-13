@@ -215,6 +215,27 @@ The script creates the initialized output with `original_dist` and
 field does not replace Census Block population for interactive district
 calculations.**
 
+### Important: Keep the Redistricting Editor Open During an Editing Session
+
+Once the Redistricting Editor has been launched and the required layers have been loaded, users should **keep the plugin window open throughout the redistricting session**.
+
+The editor maintains working district assignments and editing history during the active session. Closing the plugin window ends that session.
+
+If the plugin is closed and reopened, it starts a new session. Users must select the required layers and click **Load Layer** again. Previous unsaved reassignments and Undo history should not be assumed to remain available.
+
+Users can continue selecting Census Blocks, reassigning districts, reviewing statistics, using Undo, updating the map, and saving plans without closing the editor.
+
+**Recommended workflow:**
+
+1. Run **Redistricting Data Initialization** to prepare the data and launch the Redistricting Editor.
+2. Select the **Existing Districts**, **COI Analysis**, and **Census Blocks** layers.
+3. Click **Load Layer**.
+4. Keep the Redistricting Editor open while making district adjustments.
+5. Click **Save Redistricting Plan** to export the desired district configuration.
+6. Close the editor only when the editing session is complete.
+
+**Note:** Saving a redistricting plan does not prevent further editing during the same session. However, previous Undo history may no longer be available after saving. Exporting a plan does not automatically preserve or restore the interactive editing session.
+
 ## 2. Load the Editor
 
 Choose **Existing Districts Layer**, **COI Analysis Layer**, and
@@ -236,11 +257,11 @@ districts.
 multi-block reassignment as a group. Multiple actions can be undone in
 sequence.
 
-## 5. Update Map
+## 5. Update Map/Refresh
 
 **Update Map** refreshes district symbology based on effective
 assignments and restores the custom selection tool after using QGIS Pan
-or Zoom.
+or Zoom or any other selection tool in qgis .
 
 # District Statistics
 
