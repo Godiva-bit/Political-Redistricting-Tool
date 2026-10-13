@@ -180,7 +180,7 @@ Create `scripts` inside `processing` if it does not exist.
 In Finder press **Command + Shift + G**, enter the parent
 `python/plugins/` directory, and copy the complete plugin folder.
 
-**Processing script (`redistricting_tool.py`):**
+**Processing script (`redistricting_data_initialization.py`):**
 
 ``` text
 ~/Library/Application Support/QGIS/QGIS3/profiles/default/processing/scripts/
