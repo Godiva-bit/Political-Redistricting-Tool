@@ -92,7 +92,7 @@ confused with the COI Analysis Layer.
 
 ## Main Python Components
 
--   **`redistricting_tool.py`:** QGIS Processing script. Accepts
+-   **`redistricting_data_initialization.py`:** QGIS Processing script. Accepts
     analysis geography, Existing Districts, district ID field, and
     population field; creates the initialized output and launches the
     editor.
